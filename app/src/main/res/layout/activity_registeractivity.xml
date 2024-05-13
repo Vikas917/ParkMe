@@ -127,6 +127,13 @@
                 android:text="Female"
                 android:textSize="16sp"
                 android:textColor="#555555"/>
+            <RadioButton
+                android:id="@+id/radio_others"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Others"
+                android:textSize="16sp"
+                android:textColor="#555555"/>
 
         </RadioGroup>
 
