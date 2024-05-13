@@ -21,38 +21,38 @@
         android:theme="@style/Theme.ParkMe"
         tools:targetApi="31">
         <activity
-            android:name=".SaveActivity"
+            android:name=".BookingSaveActivities.SaveActivity"
             android:exported="false" />
         <activity
-            android:name=".AboutActivity"
+            android:name=".OtherActivities.AboutActivity"
             android:exported="false" />
         <activity
-            android:name=".BookingActivity"
+            android:name=".BookingSaveActivities.BookingActivity"
             android:exported="false" />
         <activity
-            android:name=".RateActivity"
+            android:name=".OtherActivities.RateActivity"
             android:exported="false" />
         <activity
-            android:name=".PaymentsActivity"
+            android:name=".BookingSaveActivities.PaymentsActivity"
             android:exported="false" />
         <activity
-            android:name=".ProfileActivity"
+            android:name=".OtherActivities.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".ParkingAvailabilityActivity"
+            android:name=".BookingSaveActivities.ParkingAvailabilityActivity"
             android:exported="false" />
         <activity
             android:name=".LoginRegisterActivities.ChangePasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".PlaceAutoSuggestAdapter"
+            android:name=".Others.PlaceAutoSuggestAdapter"
             android:exported="false"
             tools:ignore="Instantiatable" />
         <activity
             android:name=".LoginRegisterActivities.forgotpassword"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".OtherActivities.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
