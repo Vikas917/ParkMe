@@ -42,14 +42,14 @@
             android:name=".ParkingAvailabilityActivity"
             android:exported="false" />
         <activity
-            android:name=".ChangePasswordActivity"
+            android:name=".LoginRegisterActivities.ChangePasswordActivity"
             android:exported="false" />
         <activity
             android:name=".PlaceAutoSuggestAdapter"
             android:exported="false"
             tools:ignore="Instantiatable" />
         <activity
-            android:name=".forgotpassword"
+            android:name=".LoginRegisterActivities.forgotpassword"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
@@ -66,10 +66,10 @@
             android:value="@string/my_map_api_key" />
 
         <activity
-            android:name=".RegisterActivity"
+            android:name=".LoginRegisterActivities.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".LoginRegisterActivities.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"
